@@ -1,0 +1,24 @@
+PODS:
+  - CRToast (0.0.7)
+  - Fabric (1.2.8):
+    - Fabric/Base (= 1.2.8)
+  - Fabric/Base (1.2.8)
+  - MBProgressHUD (0.9.1)
+  - TwitterCore (1.9.0)
+  - TwitterKit (1.9.0)
+
+DEPENDENCIES:
+  - CRToast (~> 0.0.7)
+  - Fabric
+  - MBProgressHUD (~> 0.9.1)
+  - TwitterCore
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  CRToast: 99a28f4387def43b439ad88f957ce31357ff7373
+  Fabric: a9eabe53915e9f1db55a84dd2838737928675878
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  TwitterCore: 98ed97a6047c4ef109522840337e815683ead7e5
+  TwitterKit: 7ec3d60ef21776f9e5726ecb85856e024d8c25b3
+
+COCOAPODS: 0.38.2

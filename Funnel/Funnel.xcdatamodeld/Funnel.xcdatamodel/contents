@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Funnel" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Setting" syncable="YES">
+        <attribute name="funnelNameFour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="funnelNameOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="funnelNameThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="funnelNameTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noAlert" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Tag" syncable="YES"/>
+    <elements>
+        <element name="Funnel" positionX="-45" positionY="0" width="128" height="75"/>
+        <element name="Setting" positionX="-18" positionY="45" width="128" height="120"/>
+        <element name="Tag" positionX="9" positionY="99" width="128" height="45"/>
+    </elements>
+</model>
